@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.container{
+    font-size: 2rem;
+    color: brown;
+    width:100vw;
+    height:100%;
+    /* border: 2px solid gold; */
+}
+.store{
+    width:60rem;
+    height:100%;
+    /* border:2px solid blue; */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* gap:1rem; */
+}
+.container_data{
+    height:7rem;
+    width:60rem;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.5rem;
+}
+.box{
+    height:2rem;
+    width:10rem;
+    padding-left:1rem;
+    /* cursor: pointer; */
+    /* background-color: aqua; */
+    border:1px solid aqua ;
+}
+.error{
+    display: none;
+    color:red;
+    font-size: 2rem;
+    font: bolder;
+}
+#box_btn{
+    height:2rem;
+    width:10rem;
+    padding-left:1rem;
+    cursor: pointer;
+    background-color: aqua;
+    border:1px solid aqua ;
+}
+.player_data{
+    width:60rem;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
+    /* background-color: aqua; */
+    padding-top: 1rem;
+    flex-direction: column;
+    
+}
+.player_data_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:7rem;
+    width:60rem;
+    gap:1rem;
+    /* border: 2px solid red; */
+    background-color: aqua;
+
+
+    
+}
+.btns{
+    display: flex;
+    gap:3rem;
+    
+}
+.btns .clicks{
+    border-radius: 50%;
+    border: none;
+    height:2rem;
+    width:2rem;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
